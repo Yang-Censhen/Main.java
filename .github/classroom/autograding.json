@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "toString test",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FlightBookingTest#testToString1 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "Constructor test",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FlightBookingTest#testConstructor test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Getter 1 test",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FlightBookingTest#testGetTotalPassengers test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Getter 2 test",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FlightBookingTest#testGetTotalTicketPrice test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
